@@ -1,11 +1,31 @@
 {
-  "name": "my-hooks",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-export-json-csv",
+  "description": "A react component to easily Export csv of your json data and rearrange your headers column based on your UI tables order.",
+  "author": "Jazer Zayas (https://jazerzayas.netlify.app/)",
+  "keywords": [
+    "react",
+    "react-component",
+    "json",
+    "csv",
+    "button",
+    "download"
+  ],
+  "version": "1.0.0-4",
+  "license": "MIT",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "files": [ "dist"],
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jkpz10/react-export-json-csv.git"
+  },
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "papaparse": "^5.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -14,6 +34,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "buildBabel": "rm -rf dist && NODE_ENV=production babel src/hooks --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +55,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
   }
 }
