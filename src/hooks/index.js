@@ -1,4 +1,4 @@
-import ExportJsonCsv from './react-export-json-csv';
+import ExportJsonCsv from './export-json-csv';
 
 export {
   ExportJsonCsv,
