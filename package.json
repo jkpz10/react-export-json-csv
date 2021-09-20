@@ -10,7 +10,7 @@
     "button",
     "download"
   ],
-  "version": "1.0.0-4",
+  "version": "1.0.1-2",
   "license": "MIT",
   "private": false,
   "main": "./dist/index.js",
@@ -19,17 +19,6 @@
   "repository": {
       "type": "git",
       "url": "git+https://github.com/jkpz10/react-export-json-csv.git"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "papaparse": "^5.3.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -59,6 +48,17 @@
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6"
+    "@babel/preset-env": "^7.15.6",
+    "@babel/polyfill": "^7.12.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "dependencies": {
+    "papaparse": "^5.3.1"
   }
 }
