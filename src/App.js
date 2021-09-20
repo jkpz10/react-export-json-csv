@@ -3,6 +3,28 @@ import './App.css';
 import {ExportJsonCsv} from './hooks';
 
 function App() {
+  const headers = [
+    {
+      key: 'id',
+      name: 'ID',
+    },
+    {
+      key: 'fname',
+      name: 'First Name',
+    },
+  ]
+  
+  const data = [
+    {
+      id: '1',
+      fname: 'John',
+    },
+    {
+      id: '2',
+      fname: 'Doe',
+    },
+  ]
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,7 +40,7 @@ function App() {
           Learn React
         </a>
 
-        <ExportJsonCsv>Export</ExportJsonCsv>
+        <ExportJsonCsv headers={headers} items={data}>Export</ExportJsonCsv>
       </header>
     </div>
   );
