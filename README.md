@@ -1,4 +1,10 @@
 # ⌗ react-export-json-csv
+
+[![npm](https://img.shields.io/bundlephobia/min/react-export-json-csv?label=package%20size)](https://npmjs.org/package/react-export-json-csv)
+[![npm](https://img.shields.io/npm/dt/react-export-json-csv)](https://npmjs.org/package/react-export-json-csv)
+[![npm](https://img.shields.io/github/license/jkpz10/react-export-json-csv)](https://npmjs.org/package/react-export-json-csv)
+
+
 A react component to easily Export csv of your json data and rearrange your headers column based on your UI tables order.
 ## Live Demo 
   Coming Soon
